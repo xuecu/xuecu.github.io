@@ -35,6 +35,15 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        env:
+          REACT_APP_API_BASE_URL : ${{ secrets.REACT_APP_API_BASE_URL }}
+          REACT_APP_GRAPHQL_READPOINT : ${{ secrets.REACT_APP_GRAPHQL_READPOINT }}
+          REACT_APP_GRAPHQL_ENDPOINT : ${{ secrets.REACT_APP_GRAPHQL_ENDPOINT }}
+          REACT_APP_XUEMI_CLIENT_ID : ${{ secrets.REACT_APP_XUEMI_CLIENT_ID }}
+          REACT_APP_XUEMI_CLIENT_KEY : ${{ secrets.REACT_APP_XUEMI_CLIENT_KEY }}
+          REACT_APP_SIXDIGITAL_CLIENT_ID : ${{ secrets.REACT_APP_SIXDIGITAL_CLIENT_ID }}
+          REACT_APP_SIXDIGITAL_CLIENT_KEY : ${{ secrets.REACT_APP_SIXDIGITAL_CLIENT_KEY }}
+
         with:
           # Upload entire repository
           path: '.'
