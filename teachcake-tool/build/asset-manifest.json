@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/teachcake-tool/build/static/css/main.2d68ff78.css",
+    "main.js": "/teachcake-tool/build/static/js/main.393983f8.js",
+    "static/js/453.21dc1731.chunk.js": "/teachcake-tool/build/static/js/453.21dc1731.chunk.js",
+    "index.html": "/teachcake-tool/build/index.html",
+    "main.2d68ff78.css.map": "/teachcake-tool/build/static/css/main.2d68ff78.css.map",
+    "main.393983f8.js.map": "/teachcake-tool/build/static/js/main.393983f8.js.map",
+    "453.21dc1731.chunk.js.map": "/teachcake-tool/build/static/js/453.21dc1731.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d68ff78.css",
+    "static/js/main.393983f8.js"
+  ]
+}
